@@ -26,12 +26,16 @@ window.addEventListener("load", () => {
 });
 
 function RenderDetailsPanel(data){
+    let ip = data.ip;
     let lat = data.latitude;
     let long = data.longitude;
     let city = data.city;
     let region = data.region;
     let org = data.org;
     // let hostname = data.hostname;
+
+    let header = document.getElementById("header");
+    header.innerText = `Your IP Address is ${ip}`;
 
     // console.log(lat , long , city , region , org , hostname);
     let details_container = document.getElementById("details");
