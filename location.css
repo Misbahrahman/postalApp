@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+}
+#details{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+h2{
+    color: white;
+}
+
+#gMap{
+    background-color: #575A85;
+}
+
+#mapContainer{
+    background-color: #575A85;
+    text-align: center;
+    padding: 20px;
+}
+
+#holder{
+    display: grid;
+    gap: 10px;
+}
+
+#holder > div{
+    background-color: #575A85;
+    color: aliceblue;
+    border: 1px solid white;
+}
+
+#holder > div > h3{
+    background-color: #575A85;
+    
+}
+
+#search{
+    text-align: center;
+    color: aliceblue;
+}
+
+#srachBtn{
+    text-align: center;
+    color: aliceblue;
+}

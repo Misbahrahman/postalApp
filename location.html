@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <section>
+
+        <h2 style="text-align: center; margin: 20px;">IP Address : 192.168.0.0</h2>
+        <div id="details"></div>
+
+    </section>
+
+    <section id="gMap">
+        
+        <div id="mapContainer">
+            <h2 style="background-color: #575A85;">Your Current Location</h2>
+            
+        </div>
+
+    </section>
+
+    <section id="timeInfo">
+        <h2 style="text-align: center;">
+            More Info About Your location   
+        </h2>
+        <div id="timePanel"></div>
+
+    </section>
+
+    <section id="NearMePosts">
+        <h2 style="text-align: center;">Posts Offices Near Me</h2>
+        <div style="text-align: center; gap: 10px">
+            <input type="text" name="search" id="search">
+            <button id="srachBtn">Search</button>
+        </div>
+        <div id="holder"></div>
+    </section>
+<script src="locationScript.js"></script>
+    
+</body>
+</html>
